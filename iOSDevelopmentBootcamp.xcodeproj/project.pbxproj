@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE63A05E2BF10DC300EEFFAF /* HikeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63A05D2BF10DC300EEFFAF /* HikeDetailView.swift */; };
+		AEE365732BE8320D00D098A0 /* HikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE365722BE8320D00D098A0 /* HikingApp.swift */; };
+		AEE365752BE8324B00D098A0 /* HikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE365742BE8324B00D098A0 /* HikeModel.swift */; };
 		AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA36212BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift */; };
 		AEEA36242BE7DF1C003DCEB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA36232BE7DF1C003DCEB0 /* ContentView.swift */; };
 		AEEA36262BE7DF1C003DCEB0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA36252BE7DF1C003DCEB0 /* Item.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE63A05D2BF10DC300EEFFAF /* HikeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailView.swift; sourceTree = "<group>"; };
+		AEE365722BE8320D00D098A0 /* HikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingApp.swift; sourceTree = "<group>"; };
+		AEE365742BE8324B00D098A0 /* HikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeModel.swift; sourceTree = "<group>"; };
 		AEEA361E2BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevelopmentBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEEA36212BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDevelopmentBootcampApp.swift; sourceTree = "<group>"; };
 		AEEA36232BE7DF1C003DCEB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AEE365712BE831E000D098A0 /* Capture3 */ = {
+			isa = PBXGroup;
+			children = (
+				AEE365722BE8320D00D098A0 /* HikingApp.swift */,
+				AEE365742BE8324B00D098A0 /* HikeModel.swift */,
+				AE63A05D2BF10DC300EEFFAF /* HikeDetailView.swift */,
+			);
+			path = Capture3;
+			sourceTree = "<group>";
+		};
 		AEEA36152BE7DF1C003DCEB0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +72,7 @@
 		AEEA36202BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				AEE365712BE831E000D098A0 /* Capture3 */,
 				AEEA36332BE7DF8E003DCEB0 /* Capture2 */,
 				AEEA36322BE7DF44003DCEB0 /* SwiftDataPackage */,
 				AEEA36212BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift */,
@@ -162,6 +179,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEEA36352BE7DF9E003DCEB0 /* HelloSwiftUi.swift in Sources */,
+				AEE365732BE8320D00D098A0 /* HikingApp.swift in Sources */,
+				AE63A05E2BF10DC300EEFFAF /* HikeDetailView.swift in Sources */,
+				AEE365752BE8324B00D098A0 /* HikeModel.swift in Sources */,
 				AEEA36242BE7DF1C003DCEB0 /* ContentView.swift in Sources */,
 				AEEA36262BE7DF1C003DCEB0 /* Item.swift in Sources */,
 				AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */,
