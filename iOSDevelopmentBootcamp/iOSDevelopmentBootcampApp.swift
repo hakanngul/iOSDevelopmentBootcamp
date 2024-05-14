@@ -22,10 +22,15 @@ struct iOSDevelopmentBootcampApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
+    
+//    @StateObject private var appState = AppState()
+    @State private var appState = AppState()
 
     var body: some Scene {
         WindowGroup {
-            HelloSwiftUi()
+            BindingProperty()
+//                .environmentObject(appState)
+                .environment(appState)
         }
         //.modelContainer(sharedModelContainer)
     }

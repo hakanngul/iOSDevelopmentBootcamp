@@ -2,7 +2,7 @@
 //  HikeDetailView.swift
 //  iOSDevelopmentBootcamp
 //
-//  Created by Hakan Gül on 12.05.2024.
+//  Created by Hakan Gül on 12.05.2024.t
 //
 
 import SwiftUI
@@ -30,7 +30,7 @@ struct HikeDetailView: View {
       Spacer()
     }
     .navigationTitle(hike.name)
-    .navigationBarTitleDisplayMode(.inline)
+//    .navigationBarTitleDisplayMode(.inline)
   }
 }
 

@@ -16,6 +16,11 @@
 		AEEA36282BE7DF1E003DCEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEA36272BE7DF1E003DCEB0 /* Assets.xcassets */; };
 		AEEA362C2BE7DF1E003DCEB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEA362B2BE7DF1E003DCEB0 /* Preview Assets.xcassets */; };
 		AEEA36352BE7DF9E003DCEB0 /* HelloSwiftUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA36342BE7DF9E003DCEB0 /* HelloSwiftUi.swift */; };
+		AEF5EA6B2BF127130046F85D /* StateAndBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF5EA6A2BF127120046F85D /* StateAndBinding.swift */; };
+		AEF5EA6D2BF1552F0046F85D /* AnotherExampleForState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF5EA6C2BF1552F0046F85D /* AnotherExampleForState.swift */; };
+		AEF5EA6F2BF157BA0046F85D /* ListInSwiftUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF5EA6E2BF157BA0046F85D /* ListInSwiftUi.swift */; };
+		AEF5EA712BF15E5C0046F85D /* BindingProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF5EA702BF15E5C0046F85D /* BindingProperty.swift */; };
+		AEF5EA732BF1646E0046F85D /* GptBindingProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF5EA722BF1646E0046F85D /* GptBindingProperty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		AEEA36292BE7DF1E003DCEB0 /* iOSDevelopmentBootcamp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSDevelopmentBootcamp.entitlements; sourceTree = "<group>"; };
 		AEEA362B2BE7DF1E003DCEB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEEA36342BE7DF9E003DCEB0 /* HelloSwiftUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUi.swift; sourceTree = "<group>"; };
+		AEF5EA6A2BF127120046F85D /* StateAndBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndBinding.swift; sourceTree = "<group>"; };
+		AEF5EA6C2BF1552F0046F85D /* AnotherExampleForState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherExampleForState.swift; sourceTree = "<group>"; };
+		AEF5EA6E2BF157BA0046F85D /* ListInSwiftUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInSwiftUi.swift; sourceTree = "<group>"; };
+		AEF5EA702BF15E5C0046F85D /* BindingProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingProperty.swift; sourceTree = "<group>"; };
+		AEF5EA722BF1646E0046F85D /* GptBindingProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GptBindingProperty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,7 @@
 		AEEA36202BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				AEF5EA692BF126F40046F85D /* Capture4 */,
 				AEE365712BE831E000D098A0 /* Capture3 */,
 				AEEA36332BE7DF8E003DCEB0 /* Capture2 */,
 				AEEA36322BE7DF44003DCEB0 /* SwiftDataPackage */,
@@ -106,6 +117,18 @@
 				AEEA36342BE7DF9E003DCEB0 /* HelloSwiftUi.swift */,
 			);
 			path = Capture2;
+			sourceTree = "<group>";
+		};
+		AEF5EA692BF126F40046F85D /* Capture4 */ = {
+			isa = PBXGroup;
+			children = (
+				AEF5EA6A2BF127120046F85D /* StateAndBinding.swift */,
+				AEF5EA6C2BF1552F0046F85D /* AnotherExampleForState.swift */,
+				AEF5EA6E2BF157BA0046F85D /* ListInSwiftUi.swift */,
+				AEF5EA702BF15E5C0046F85D /* BindingProperty.swift */,
+				AEF5EA722BF1646E0046F85D /* GptBindingProperty.swift */,
+			);
+			path = Capture4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,10 +204,15 @@
 				AEEA36352BE7DF9E003DCEB0 /* HelloSwiftUi.swift in Sources */,
 				AEE365732BE8320D00D098A0 /* HikingApp.swift in Sources */,
 				AE63A05E2BF10DC300EEFFAF /* HikeDetailView.swift in Sources */,
+				AEF5EA712BF15E5C0046F85D /* BindingProperty.swift in Sources */,
 				AEE365752BE8324B00D098A0 /* HikeModel.swift in Sources */,
 				AEEA36242BE7DF1C003DCEB0 /* ContentView.swift in Sources */,
+				AEF5EA732BF1646E0046F85D /* GptBindingProperty.swift in Sources */,
 				AEEA36262BE7DF1C003DCEB0 /* Item.swift in Sources */,
+				AEF5EA6F2BF157BA0046F85D /* ListInSwiftUi.swift in Sources */,
 				AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */,
+				AEF5EA6D2BF1552F0046F85D /* AnotherExampleForState.swift in Sources */,
+				AEF5EA6B2BF127130046F85D /* StateAndBinding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
