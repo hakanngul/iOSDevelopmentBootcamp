@@ -1,5 +1,5 @@
 //
-//  WebService.swift
+//  FakeServices.swift
 //  iOSDevelopmentBootcamp
 //
 //  Created by Hakan Gül on 25.05.2024.
@@ -7,29 +7,25 @@
 
 import Foundation
 
-enum NetworkError2: Error {
+enum PNetworkError: Error {
   case badURL
   case badRequest
-  case decodingError
+  case badData
 }
 
-class WebService {
+class FakeServices {
 
-  func getProducts() async throws -> [ProductX] {
+  func getProducts() async throws -> [Product] {
     guard let url = URL(string: "https://fakestoreapi.com/products") else {
-      throw NetworkError2.badURL
+      throw PNetworkError.badURL
     }
 
     let (data, response) = try await URLSession.shared.data(from: url)
-
     guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
-      throw NetworkError2.badRequest
+      throw PNetworkError.badRequest
     }
 
-    guard let products = try? JSONDecoder().decode([ProductX].self, from: data) else {
-      throw NetworkError2.decodingError
-    }
-
+    let products = try JSONDecoder().decode([Product].self, from: data)
     return products
   }
 }

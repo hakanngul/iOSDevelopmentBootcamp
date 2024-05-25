@@ -8,8 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		AE3D616A2C0259B900C1DB03 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D61692C0259B800C1DB03 /* WebService.swift */; };
-		AE3D616D2C0259DA00C1DB03 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D616C2C0259DA00C1DB03 /* Product.swift */; };
+		AE3D616D2C0259DA00C1DB03 /* ProductX.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D616C2C0259DA00C1DB03 /* ProductX.swift */; };
 		AE3D61702C025C1000C1DB03 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D616F2C025C1000C1DB03 /* ProductListViewModel.swift */; };
+		AE3D61732C025E2000C1DB03 /* MVPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D61722C025E2000C1DB03 /* MVPattern.swift */; };
+		AE3D61772C025E7800C1DB03 /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D61762C025E7800C1DB03 /* StoreModel.swift */; };
+		AE3D61792C0260CF00C1DB03 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D61782C0260CF00C1DB03 /* Product.swift */; };
+		AE3D617C2C0261AD00C1DB03 /* FakeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D617B2C0261AD00C1DB03 /* FakeServices.swift */; };
+		AE3D617F2C0265D100C1DB03 /* NumberFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D617E2C0265D100C1DB03 /* NumberFormatter+Extension.swift */; };
 		AE601C602C010B5100CA3E25 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C5F2C010B5100CA3E25 /* WeatherApp.swift */; };
 		AE601C622C010B7000CA3E25 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C612C010B7000CA3E25 /* Location.swift */; };
 		AE601C642C010C3500CA3E25 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C632C010C3500CA3E25 /* Weather.swift */; };
@@ -37,8 +42,13 @@
 
 /* Begin PBXFileReference section */
 		AE3D61692C0259B800C1DB03 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		AE3D616C2C0259DA00C1DB03 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		AE3D616C2C0259DA00C1DB03 /* ProductX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductX.swift; sourceTree = "<group>"; };
 		AE3D616F2C025C1000C1DB03 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		AE3D61722C025E2000C1DB03 /* MVPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPattern.swift; sourceTree = "<group>"; };
+		AE3D61762C025E7800C1DB03 /* StoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		AE3D61782C0260CF00C1DB03 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		AE3D617B2C0261AD00C1DB03 /* FakeServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeServices.swift; sourceTree = "<group>"; };
+		AE3D617E2C0265D100C1DB03 /* NumberFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extension.swift"; sourceTree = "<group>"; };
 		AE601C5F2C010B5100CA3E25 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		AE601C612C010B7000CA3E25 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		AE601C632C010C3500CA3E25 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
@@ -88,7 +98,7 @@
 		AE3D616B2C0259CF00C1DB03 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AE3D616C2C0259DA00C1DB03 /* Product.swift */,
+				AE3D616C2C0259DA00C1DB03 /* ProductX.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -99,6 +109,58 @@
 				AE3D616F2C025C1000C1DB03 /* ProductListViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		AE3D61712C025E0A00C1DB03 /* Capture6-1 */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D617D2C0265C000C1DB03 /* Extensions */,
+				AE3D617A2C0261A200C1DB03 /* Services */,
+				AE3D61742C025E6000C1DB03 /* Models */,
+				AE3D61752C025E6600C1DB03 /* New Group */,
+				AE3D61722C025E2000C1DB03 /* MVPattern.swift */,
+			);
+			path = "Capture6-1";
+			sourceTree = "<group>";
+		};
+		AE3D61742C025E6000C1DB03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D61762C025E7800C1DB03 /* StoreModel.swift */,
+				AE3D61782C0260CF00C1DB03 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE3D61752C025E6600C1DB03 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			path = "New Group/New Group";
+			sourceTree = "<group>";
+		};
+		AE3D617A2C0261A200C1DB03 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D617B2C0261AD00C1DB03 /* FakeServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AE3D617D2C0265C000C1DB03 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D617E2C0265D100C1DB03 /* NumberFormatter+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AE3D61802C02882100C1DB03 /* Capture7 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Capture7;
 			sourceTree = "<group>";
 		};
 		AE601C5E2C010B3E00CA3E25 /* Capture5 */ = {
@@ -169,6 +231,8 @@
 		AEEA36202BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				AE3D61802C02882100C1DB03 /* Capture7 */,
+				AE3D61712C025E0A00C1DB03 /* Capture6-1 */,
 				AEEA8F992C02312B00D5E930 /* Capture6 */,
 				AE601C5E2C010B3E00CA3E25 /* Capture5 */,
 				AEF5EA692BF126F40046F85D /* Capture4 */,
@@ -314,6 +378,7 @@
 				AE601C6B2C010E1A00CA3E25 /* Constants.swift in Sources */,
 				AEE365732BE8320D00D098A0 /* HikingApp.swift in Sources */,
 				AEEA8F952C01FBAE00D5E930 /* WeatherClient.swift in Sources */,
+				AE3D61772C025E7800C1DB03 /* StoreModel.swift in Sources */,
 				AE63A05E2BF10DC300EEFFAF /* HikeDetailView.swift in Sources */,
 				AEF5EA712BF15E5C0046F85D /* BindingProperty.swift in Sources */,
 				AE601C642C010C3500CA3E25 /* Weather.swift in Sources */,
@@ -321,15 +386,19 @@
 				AE601C6D2C01106400CA3E25 /* GeocondingClient.swift in Sources */,
 				AEEA36242BE7DF1C003DCEB0 /* ContentView.swift in Sources */,
 				AE601C682C010D0600CA3E25 /* APIEndpoint.swift in Sources */,
-				AE3D616D2C0259DA00C1DB03 /* Product.swift in Sources */,
+				AE3D616D2C0259DA00C1DB03 /* ProductX.swift in Sources */,
+				AE3D61732C025E2000C1DB03 /* MVPattern.swift in Sources */,
 				AE601C622C010B7000CA3E25 /* Location.swift in Sources */,
 				AE3D61702C025C1000C1DB03 /* ProductListViewModel.swift in Sources */,
 				AEF5EA732BF1646E0046F85D /* GptBindingProperty.swift in Sources */,
 				AEEA8F982C022CC400D5E930 /* MeasurementFormatter+Extensions.swift in Sources */,
+				AE3D617F2C0265D100C1DB03 /* NumberFormatter+Extension.swift in Sources */,
 				AEEA36262BE7DF1C003DCEB0 /* Item.swift in Sources */,
+				AE3D61792C0260CF00C1DB03 /* Product.swift in Sources */,
 				AE601C602C010B5100CA3E25 /* WeatherApp.swift in Sources */,
 				AEF5EA6F2BF157BA0046F85D /* ListInSwiftUi.swift in Sources */,
 				AEEA8F9B2C02313B00D5E930 /* MvvmPattern.swift in Sources */,
+				AE3D617C2C0261AD00C1DB03 /* FakeServices.swift in Sources */,
 				AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */,
 				AEF5EA6D2BF1552F0046F85D /* AnotherExampleForState.swift in Sources */,
 				AEF5EA6B2BF127130046F85D /* StateAndBinding.swift in Sources */,

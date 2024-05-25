@@ -28,8 +28,8 @@ class ProductListViewModel: ObservableObject {
 }
 
 struct ProductViewModel : Identifiable{
-    private var product: Product
-    init(product: Product) {
+    private var product: ProductX
+    init(product: ProductX) {
         self.product = product
     }
     var id: Int {
