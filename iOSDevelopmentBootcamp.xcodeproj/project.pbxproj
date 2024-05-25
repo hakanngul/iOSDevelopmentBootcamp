@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE601C602C010B5100CA3E25 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C5F2C010B5100CA3E25 /* WeatherApp.swift */; };
+		AE601C622C010B7000CA3E25 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C612C010B7000CA3E25 /* Location.swift */; };
+		AE601C642C010C3500CA3E25 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C632C010C3500CA3E25 /* Weather.swift */; };
+		AE601C682C010D0600CA3E25 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C672C010D0600CA3E25 /* APIEndpoint.swift */; };
+		AE601C6B2C010E1A00CA3E25 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C6A2C010E1A00CA3E25 /* Constants.swift */; };
+		AE601C6D2C01106400CA3E25 /* GeocondingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C6C2C01106400CA3E25 /* GeocondingClient.swift */; };
 		AE63A05E2BF10DC300EEFFAF /* HikeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63A05D2BF10DC300EEFFAF /* HikeDetailView.swift */; };
 		AEE365732BE8320D00D098A0 /* HikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE365722BE8320D00D098A0 /* HikingApp.swift */; };
 		AEE365752BE8324B00D098A0 /* HikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE365742BE8324B00D098A0 /* HikeModel.swift */; };
@@ -16,6 +22,8 @@
 		AEEA36282BE7DF1E003DCEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEA36272BE7DF1E003DCEB0 /* Assets.xcassets */; };
 		AEEA362C2BE7DF1E003DCEB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEEA362B2BE7DF1E003DCEB0 /* Preview Assets.xcassets */; };
 		AEEA36352BE7DF9E003DCEB0 /* HelloSwiftUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA36342BE7DF9E003DCEB0 /* HelloSwiftUi.swift */; };
+		AEEA8F952C01FBAE00D5E930 /* WeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA8F942C01FBAE00D5E930 /* WeatherClient.swift */; };
+		AEEA8F982C022CC400D5E930 /* MeasurementFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA8F972C022CC400D5E930 /* MeasurementFormatter+Extensions.swift */; };
 		AEF5EA6B2BF127130046F85D /* StateAndBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF5EA6A2BF127120046F85D /* StateAndBinding.swift */; };
 		AEF5EA6D2BF1552F0046F85D /* AnotherExampleForState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF5EA6C2BF1552F0046F85D /* AnotherExampleForState.swift */; };
 		AEF5EA6F2BF157BA0046F85D /* ListInSwiftUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF5EA6E2BF157BA0046F85D /* ListInSwiftUi.swift */; };
@@ -24,6 +32,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE601C5F2C010B5100CA3E25 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
+		AE601C612C010B7000CA3E25 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		AE601C632C010C3500CA3E25 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		AE601C672C010D0600CA3E25 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		AE601C6A2C010E1A00CA3E25 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AE601C6C2C01106400CA3E25 /* GeocondingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocondingClient.swift; sourceTree = "<group>"; };
 		AE63A05D2BF10DC300EEFFAF /* HikeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailView.swift; sourceTree = "<group>"; };
 		AEE365722BE8320D00D098A0 /* HikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingApp.swift; sourceTree = "<group>"; };
 		AEE365742BE8324B00D098A0 /* HikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeModel.swift; sourceTree = "<group>"; };
@@ -35,6 +49,8 @@
 		AEEA36292BE7DF1E003DCEB0 /* iOSDevelopmentBootcamp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSDevelopmentBootcamp.entitlements; sourceTree = "<group>"; };
 		AEEA362B2BE7DF1E003DCEB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEEA36342BE7DF9E003DCEB0 /* HelloSwiftUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUi.swift; sourceTree = "<group>"; };
+		AEEA8F942C01FBAE00D5E930 /* WeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherClient.swift; sourceTree = "<group>"; };
+		AEEA8F972C022CC400D5E930 /* MeasurementFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeasurementFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		AEF5EA6A2BF127120046F85D /* StateAndBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndBinding.swift; sourceTree = "<group>"; };
 		AEF5EA6C2BF1552F0046F85D /* AnotherExampleForState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherExampleForState.swift; sourceTree = "<group>"; };
 		AEF5EA6E2BF157BA0046F85D /* ListInSwiftUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInSwiftUi.swift; sourceTree = "<group>"; };
@@ -53,6 +69,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE601C5E2C010B3E00CA3E25 /* Capture5 */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA8F962C022CAE00D5E930 /* Extensions */,
+				AE601C692C010E1000CA3E25 /* Utilities */,
+				AE601C662C010CEB00CA3E25 /* Clients */,
+				AE601C652C010CE600CA3E25 /* Models */,
+				AE601C5F2C010B5100CA3E25 /* WeatherApp.swift */,
+			);
+			path = Capture5;
+			sourceTree = "<group>";
+		};
+		AE601C652C010CE600CA3E25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE601C612C010B7000CA3E25 /* Location.swift */,
+				AE601C632C010C3500CA3E25 /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE601C662C010CEB00CA3E25 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				AE601C672C010D0600CA3E25 /* APIEndpoint.swift */,
+				AE601C6C2C01106400CA3E25 /* GeocondingClient.swift */,
+				AEEA8F942C01FBAE00D5E930 /* WeatherClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		AE601C692C010E1000CA3E25 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AE601C6A2C010E1A00CA3E25 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		AEE365712BE831E000D098A0 /* Capture3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +137,7 @@
 		AEEA36202BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				AE601C5E2C010B3E00CA3E25 /* Capture5 */,
 				AEF5EA692BF126F40046F85D /* Capture4 */,
 				AEE365712BE831E000D098A0 /* Capture3 */,
 				AEEA36332BE7DF8E003DCEB0 /* Capture2 */,
@@ -117,6 +173,14 @@
 				AEEA36342BE7DF9E003DCEB0 /* HelloSwiftUi.swift */,
 			);
 			path = Capture2;
+			sourceTree = "<group>";
+		};
+		AEEA8F962C022CAE00D5E930 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA8F972C022CC400D5E930 /* MeasurementFormatter+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		AEF5EA692BF126F40046F85D /* Capture4 */ = {
@@ -159,7 +223,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					AEEA361D2BE7DF1C003DCEB0 = {
 						CreatedOnToolsVersion = 15.3;
@@ -202,13 +266,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEEA36352BE7DF9E003DCEB0 /* HelloSwiftUi.swift in Sources */,
+				AE601C6B2C010E1A00CA3E25 /* Constants.swift in Sources */,
 				AEE365732BE8320D00D098A0 /* HikingApp.swift in Sources */,
+				AEEA8F952C01FBAE00D5E930 /* WeatherClient.swift in Sources */,
 				AE63A05E2BF10DC300EEFFAF /* HikeDetailView.swift in Sources */,
 				AEF5EA712BF15E5C0046F85D /* BindingProperty.swift in Sources */,
+				AE601C642C010C3500CA3E25 /* Weather.swift in Sources */,
 				AEE365752BE8324B00D098A0 /* HikeModel.swift in Sources */,
+				AE601C6D2C01106400CA3E25 /* GeocondingClient.swift in Sources */,
 				AEEA36242BE7DF1C003DCEB0 /* ContentView.swift in Sources */,
+				AE601C682C010D0600CA3E25 /* APIEndpoint.swift in Sources */,
+				AE601C622C010B7000CA3E25 /* Location.swift in Sources */,
 				AEF5EA732BF1646E0046F85D /* GptBindingProperty.swift in Sources */,
+				AEEA8F982C022CC400D5E930 /* MeasurementFormatter+Extensions.swift in Sources */,
 				AEEA36262BE7DF1C003DCEB0 /* Item.swift in Sources */,
+				AE601C602C010B5100CA3E25 /* WeatherApp.swift in Sources */,
 				AEF5EA6F2BF157BA0046F85D /* ListInSwiftUi.swift in Sources */,
 				AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */,
 				AEF5EA6D2BF1552F0046F85D /* AnotherExampleForState.swift in Sources */,
@@ -253,6 +325,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -314,6 +387,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -341,6 +415,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOSDevelopmentBootcamp/iOSDevelopmentBootcamp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSDevelopmentBootcamp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5C3SB5DK2F;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -379,6 +454,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOSDevelopmentBootcamp/iOSDevelopmentBootcamp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSDevelopmentBootcamp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5C3SB5DK2F;
 				ENABLE_HARDENED_RUNTIME = YES;
