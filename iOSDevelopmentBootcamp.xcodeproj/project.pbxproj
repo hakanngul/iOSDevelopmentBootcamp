@@ -17,6 +17,7 @@
 		AE3D617F2C0265D100C1DB03 /* NumberFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D617E2C0265D100C1DB03 /* NumberFormatter+Extension.swift */; };
 		AE3D61822C02885100C1DB03 /* ValidationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D61812C02885100C1DB03 /* ValidationApp.swift */; };
 		AE3D61852C0288D100C1DB03 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D61842C0288D100C1DB03 /* String+Extensions.swift */; };
+		AE3D61872C03D92800C1DB03 /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D61862C03D92800C1DB03 /* LoginError.swift */; };
 		AE601C602C010B5100CA3E25 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C5F2C010B5100CA3E25 /* WeatherApp.swift */; };
 		AE601C622C010B7000CA3E25 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C612C010B7000CA3E25 /* Location.swift */; };
 		AE601C642C010C3500CA3E25 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C632C010C3500CA3E25 /* Weather.swift */; };
@@ -24,6 +25,10 @@
 		AE601C6B2C010E1A00CA3E25 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C6A2C010E1A00CA3E25 /* Constants.swift */; };
 		AE601C6D2C01106400CA3E25 /* GeocondingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C6C2C01106400CA3E25 /* GeocondingClient.swift */; };
 		AE63A05E2BF10DC300EEFFAF /* HikeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE63A05D2BF10DC300EEFFAF /* HikeDetailView.swift */; };
+		AE6C63342C066715006A363C /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6C63332C066715006A363C /* LoginFormView.swift */; };
+		AE6C63362C066A77006A363C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6C63352C066A77006A363C /* LoginView.swift */; };
+		AE6C63382C066BAD006A363C /* ValidationSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6C63372C066BAD006A363C /* ValidationSummaryView.swift */; };
+		AE6C633A2C066C31006A363C /* LocalizedError+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6C63392C066C31006A363C /* LocalizedError+Extensions.swift */; };
 		AEE365732BE8320D00D098A0 /* HikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE365722BE8320D00D098A0 /* HikingApp.swift */; };
 		AEE365752BE8324B00D098A0 /* HikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE365742BE8324B00D098A0 /* HikeModel.swift */; };
 		AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA36212BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift */; };
@@ -53,6 +58,7 @@
 		AE3D617E2C0265D100C1DB03 /* NumberFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extension.swift"; sourceTree = "<group>"; };
 		AE3D61812C02885100C1DB03 /* ValidationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationApp.swift; sourceTree = "<group>"; };
 		AE3D61842C0288D100C1DB03 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		AE3D61862C03D92800C1DB03 /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
 		AE601C5F2C010B5100CA3E25 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		AE601C612C010B7000CA3E25 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		AE601C632C010C3500CA3E25 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
@@ -60,6 +66,10 @@
 		AE601C6A2C010E1A00CA3E25 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AE601C6C2C01106400CA3E25 /* GeocondingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocondingClient.swift; sourceTree = "<group>"; };
 		AE63A05D2BF10DC300EEFFAF /* HikeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailView.swift; sourceTree = "<group>"; };
+		AE6C63332C066715006A363C /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
+		AE6C63352C066A77006A363C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AE6C63372C066BAD006A363C /* ValidationSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSummaryView.swift; sourceTree = "<group>"; };
+		AE6C63392C066C31006A363C /* LocalizedError+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizedError+Extensions.swift"; sourceTree = "<group>"; };
 		AEE365722BE8320D00D098A0 /* HikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingApp.swift; sourceTree = "<group>"; };
 		AEE365742BE8324B00D098A0 /* HikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeModel.swift; sourceTree = "<group>"; };
 		AEEA361E2BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevelopmentBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +175,11 @@
 			children = (
 				AE3D61812C02885100C1DB03 /* ValidationApp.swift */,
 				AE3D61842C0288D100C1DB03 /* String+Extensions.swift */,
+				AE3D61862C03D92800C1DB03 /* LoginError.swift */,
+				AE6C63332C066715006A363C /* LoginFormView.swift */,
+				AE6C63352C066A77006A363C /* LoginView.swift */,
+				AE6C63372C066BAD006A363C /* ValidationSummaryView.swift */,
+				AE6C63392C066C31006A363C /* LocalizedError+Extensions.swift */,
 			);
 			path = Capture7;
 			sourceTree = "<group>";
@@ -384,9 +399,14 @@
 				AE601C6B2C010E1A00CA3E25 /* Constants.swift in Sources */,
 				AEE365732BE8320D00D098A0 /* HikingApp.swift in Sources */,
 				AEEA8F952C01FBAE00D5E930 /* WeatherClient.swift in Sources */,
+				AE6C63382C066BAD006A363C /* ValidationSummaryView.swift in Sources */,
 				AE3D61772C025E7800C1DB03 /* StoreModel.swift in Sources */,
+				AE3D61872C03D92800C1DB03 /* LoginError.swift in Sources */,
 				AE63A05E2BF10DC300EEFFAF /* HikeDetailView.swift in Sources */,
+				AE6C63342C066715006A363C /* LoginFormView.swift in Sources */,
+				AE6C633A2C066C31006A363C /* LocalizedError+Extensions.swift in Sources */,
 				AEF5EA712BF15E5C0046F85D /* BindingProperty.swift in Sources */,
+				AE6C63362C066A77006A363C /* LoginView.swift in Sources */,
 				AE601C642C010C3500CA3E25 /* Weather.swift in Sources */,
 				AEE365752BE8324B00D098A0 /* HikeModel.swift in Sources */,
 				AE601C6D2C01106400CA3E25 /* GeocondingClient.swift in Sources */,

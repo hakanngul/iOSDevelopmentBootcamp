@@ -7,10 +7,7 @@
 
 import SwiftUI
 
-struct LoginFormError {
-  var eamil: String = ""
-  var password: String = ""
-}
+
 
 struct ValidationApp: View {
   @State private var email: String = ""
@@ -25,25 +22,38 @@ struct ValidationApp: View {
     clearForm()
 
     if email.isEmpty {
-      loginFormError.eamil = "Email is required"
+      loginFormError.email = "Email is required"
     } else if !email.isValidEmail {
-      loginFormError.eamil = "Email is not in correct format"
+      loginFormError.email = "Email is not in correct format"
     }
     if password.isEmpty {
       loginFormError.password = "Password is required"
     } else if password.count < 3 {
       loginFormError.password = "Password can not be less more than 3"
     }
-    return loginFormError.eamil.isEmpty && loginFormError.password.isEmpty
+    return loginFormError.email.isEmpty && loginFormError.password.isEmpty
   }
 
   var body: some View {
     Form {
       TextField("Email", text: $email)
-      TextField("Password", text: $password)
+        .textInputAutocapitalization(.never)
+      if !loginFormError.email.isEmpty {
+        Text(loginFormError.email).font(.caption)
+          .foregroundStyle(.red)
+      }
+
+      SecureField("Password", text: $password)
+      if !loginFormError.password.isEmpty {
+        Text(loginFormError.password)
+          .font(.caption)
+          .foregroundStyle(.red)
+      }
       Button("Login") {
-        print("Email is valid and the user is logged : \(email)")
-      }.disabled(!isFormValid)
+        if isFormValid {
+          print("The \(email.description) user logged")
+        }
+      }//.disabled(!isFormValid)
     }
   }
 }
