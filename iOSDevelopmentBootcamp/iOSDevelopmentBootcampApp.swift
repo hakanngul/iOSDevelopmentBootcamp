@@ -12,11 +12,17 @@ import SwiftUI
 @main
 struct iOSDevelopmentBootcampApp: App {
 
-  @StateObject private var storeModel = StoreModel(webService: FakeServices())
+  //@StateObject private var storeModel = StoreModel(webService: FakeServices())
+  @StateObject private var model: CoffeModel
+  
+  init() {
+    let webService = WebServiceCoffeOrder()
+    _model = StateObject(wrappedValue: CoffeModel(webService: webService))
+  }
 
   var body: some Scene {
     WindowGroup {
-      MVPattern().environmentObject(storeModel)
+      HelloCoffeApp().environmentObject(model)
     }
   }
 }

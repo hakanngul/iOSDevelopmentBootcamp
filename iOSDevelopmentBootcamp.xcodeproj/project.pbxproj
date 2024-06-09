@@ -29,6 +29,11 @@
 		AE6C63362C066A77006A363C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6C63352C066A77006A363C /* LoginView.swift */; };
 		AE6C63382C066BAD006A363C /* ValidationSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6C63372C066BAD006A363C /* ValidationSummaryView.swift */; };
 		AE6C633A2C066C31006A363C /* LocalizedError+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6C63392C066C31006A363C /* LocalizedError+Extensions.swift */; };
+		AEAE118C2C145F8A00B4D761 /* WebServiceCoffeOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE118B2C145F8A00B4D761 /* WebServiceCoffeOrder.swift */; };
+		AEAE118E2C145FB700B4D761 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE118D2C145FB700B4D761 /* OrderModel.swift */; };
+		AEAE11902C1461CA00B4D761 /* CoffeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE118F2C1461CA00B4D761 /* CoffeModel.swift */; };
+		AEAE11922C146CD400B4D761 /* HelloCoffeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE11912C146CD400B4D761 /* HelloCoffeApp.swift */; };
+		AEAE11942C16535500B4D761 /* OrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE11932C16535500B4D761 /* OrderCellView.swift */; };
 		AEE365732BE8320D00D098A0 /* HikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE365722BE8320D00D098A0 /* HikingApp.swift */; };
 		AEE365752BE8324B00D098A0 /* HikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE365742BE8324B00D098A0 /* HikeModel.swift */; };
 		AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA36212BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift */; };
@@ -70,6 +75,11 @@
 		AE6C63352C066A77006A363C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AE6C63372C066BAD006A363C /* ValidationSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSummaryView.swift; sourceTree = "<group>"; };
 		AE6C63392C066C31006A363C /* LocalizedError+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizedError+Extensions.swift"; sourceTree = "<group>"; };
+		AEAE118B2C145F8A00B4D761 /* WebServiceCoffeOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceCoffeOrder.swift; sourceTree = "<group>"; };
+		AEAE118D2C145FB700B4D761 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		AEAE118F2C1461CA00B4D761 /* CoffeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeModel.swift; sourceTree = "<group>"; };
+		AEAE11912C146CD400B4D761 /* HelloCoffeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCoffeApp.swift; sourceTree = "<group>"; };
+		AEAE11932C16535500B4D761 /* OrderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCellView.swift; sourceTree = "<group>"; };
 		AEE365722BE8320D00D098A0 /* HikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingApp.swift; sourceTree = "<group>"; };
 		AEE365742BE8324B00D098A0 /* HikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeModel.swift; sourceTree = "<group>"; };
 		AEEA361E2BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevelopmentBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,7 +141,6 @@
 				AE3D617D2C0265C000C1DB03 /* Extensions */,
 				AE3D617A2C0261A200C1DB03 /* Services */,
 				AE3D61742C025E6000C1DB03 /* Models */,
-				AE3D61752C025E6600C1DB03 /* New Group */,
 				AE3D61722C025E2000C1DB03 /* MVPattern.swift */,
 			);
 			path = "Capture6-1";
@@ -144,14 +153,6 @@
 				AE3D61782C0260CF00C1DB03 /* Product.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		AE3D61752C025E6600C1DB03 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
-			path = "New Group/New Group";
 			sourceTree = "<group>";
 		};
 		AE3D617A2C0261A200C1DB03 /* Services */ = {
@@ -223,6 +224,18 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		AEAE11892C145F6700B4D761 /* Capture8 - CoffeOrdeApp */ = {
+			isa = PBXGroup;
+			children = (
+				AEAE118B2C145F8A00B4D761 /* WebServiceCoffeOrder.swift */,
+				AEAE118D2C145FB700B4D761 /* OrderModel.swift */,
+				AEAE118F2C1461CA00B4D761 /* CoffeModel.swift */,
+				AEAE11912C146CD400B4D761 /* HelloCoffeApp.swift */,
+				AEAE11932C16535500B4D761 /* OrderCellView.swift */,
+			);
+			path = "Capture8 - CoffeOrdeApp";
+			sourceTree = "<group>";
+		};
 		AEE365712BE831E000D098A0 /* Capture3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +265,7 @@
 		AEEA36202BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				AEAE11892C145F6700B4D761 /* Capture8 - CoffeOrdeApp */,
 				AE3D61802C02882100C1DB03 /* Capture7 */,
 				AE3D61712C025E0A00C1DB03 /* Capture6-1 */,
 				AEEA8F992C02312B00D5E930 /* Capture6 */,
@@ -402,15 +416,18 @@
 				AE6C63382C066BAD006A363C /* ValidationSummaryView.swift in Sources */,
 				AE3D61772C025E7800C1DB03 /* StoreModel.swift in Sources */,
 				AE3D61872C03D92800C1DB03 /* LoginError.swift in Sources */,
+				AEAE11902C1461CA00B4D761 /* CoffeModel.swift in Sources */,
 				AE63A05E2BF10DC300EEFFAF /* HikeDetailView.swift in Sources */,
 				AE6C63342C066715006A363C /* LoginFormView.swift in Sources */,
 				AE6C633A2C066C31006A363C /* LocalizedError+Extensions.swift in Sources */,
 				AEF5EA712BF15E5C0046F85D /* BindingProperty.swift in Sources */,
 				AE6C63362C066A77006A363C /* LoginView.swift in Sources */,
+				AEAE11922C146CD400B4D761 /* HelloCoffeApp.swift in Sources */,
 				AE601C642C010C3500CA3E25 /* Weather.swift in Sources */,
 				AEE365752BE8324B00D098A0 /* HikeModel.swift in Sources */,
 				AE601C6D2C01106400CA3E25 /* GeocondingClient.swift in Sources */,
 				AEEA36242BE7DF1C003DCEB0 /* ContentView.swift in Sources */,
+				AEAE11942C16535500B4D761 /* OrderCellView.swift in Sources */,
 				AE601C682C010D0600CA3E25 /* APIEndpoint.swift in Sources */,
 				AE3D616D2C0259DA00C1DB03 /* ProductX.swift in Sources */,
 				AE3D61732C025E2000C1DB03 /* MVPattern.swift in Sources */,
@@ -420,6 +437,7 @@
 				AEEA8F982C022CC400D5E930 /* MeasurementFormatter+Extensions.swift in Sources */,
 				AE3D617F2C0265D100C1DB03 /* NumberFormatter+Extension.swift in Sources */,
 				AE3D61822C02885100C1DB03 /* ValidationApp.swift in Sources */,
+				AEAE118C2C145F8A00B4D761 /* WebServiceCoffeOrder.swift in Sources */,
 				AEEA36262BE7DF1C003DCEB0 /* Item.swift in Sources */,
 				AE3D61792C0260CF00C1DB03 /* Product.swift in Sources */,
 				AE601C602C010B5100CA3E25 /* WeatherApp.swift in Sources */,
@@ -429,6 +447,7 @@
 				AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */,
 				AE3D61852C0288D100C1DB03 /* String+Extensions.swift in Sources */,
 				AEF5EA6D2BF1552F0046F85D /* AnotherExampleForState.swift in Sources */,
+				AEAE118E2C145FB700B4D761 /* OrderModel.swift in Sources */,
 				AEF5EA6B2BF127130046F85D /* StateAndBinding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
