@@ -29,12 +29,18 @@ struct HelloCoffeApp: View {
     }
   }
 }
+//
+//#Preview{
+//  var config = Configuration()
+//  HelloCoffeApp()
+//    .environmentObject(
+//      CoffeModel(webService: WebServiceCoffeOrder(baseURL: config.environment.baseUrl)))
+//}
 
-
-
-
-
-#Preview{
-  HelloCoffeApp()
-    .environmentObject(CoffeModel(webService: WebServiceCoffeOrder()))
+struct HelloCoffe_Previews: PreviewProvider {
+  static var previews: some View {
+    var config = Configuration()
+    HelloCoffeApp()
+      .environmentObject(CoffeModel(webService: WebServiceCoffeOrder(baseURL: config.environment.baseUrl)))
+  }
 }

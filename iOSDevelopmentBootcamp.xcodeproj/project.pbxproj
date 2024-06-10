@@ -34,6 +34,7 @@
 		AEAE11902C1461CA00B4D761 /* CoffeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE118F2C1461CA00B4D761 /* CoffeModel.swift */; };
 		AEAE11922C146CD400B4D761 /* HelloCoffeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE11912C146CD400B4D761 /* HelloCoffeApp.swift */; };
 		AEAE11942C16535500B4D761 /* OrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE11932C16535500B4D761 /* OrderCellView.swift */; };
+		AEAE11962C16693A00B4D761 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE11952C16693A00B4D761 /* AppEnvironment.swift */; };
 		AEE365732BE8320D00D098A0 /* HikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE365722BE8320D00D098A0 /* HikingApp.swift */; };
 		AEE365752BE8324B00D098A0 /* HikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE365742BE8324B00D098A0 /* HikeModel.swift */; };
 		AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA36212BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift */; };
@@ -80,6 +81,7 @@
 		AEAE118F2C1461CA00B4D761 /* CoffeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeModel.swift; sourceTree = "<group>"; };
 		AEAE11912C146CD400B4D761 /* HelloCoffeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCoffeApp.swift; sourceTree = "<group>"; };
 		AEAE11932C16535500B4D761 /* OrderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCellView.swift; sourceTree = "<group>"; };
+		AEAE11952C16693A00B4D761 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		AEE365722BE8320D00D098A0 /* HikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingApp.swift; sourceTree = "<group>"; };
 		AEE365742BE8324B00D098A0 /* HikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeModel.swift; sourceTree = "<group>"; };
 		AEEA361E2BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevelopmentBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,7 +137,7 @@
 			path = "View Models";
 			sourceTree = "<group>";
 		};
-		AE3D61712C025E0A00C1DB03 /* Capture6-1 */ = {
+		AE3D61712C025E0A00C1DB03 /* HeadLine6-1 */ = {
 			isa = PBXGroup;
 			children = (
 				AE3D617D2C0265C000C1DB03 /* Extensions */,
@@ -143,7 +145,7 @@
 				AE3D61742C025E6000C1DB03 /* Models */,
 				AE3D61722C025E2000C1DB03 /* MVPattern.swift */,
 			);
-			path = "Capture6-1";
+			path = "HeadLine6-1";
 			sourceTree = "<group>";
 		};
 		AE3D61742C025E6000C1DB03 /* Models */ = {
@@ -171,7 +173,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		AE3D61802C02882100C1DB03 /* Capture7 */ = {
+		AE3D61802C02882100C1DB03 /* HeadLine7 */ = {
 			isa = PBXGroup;
 			children = (
 				AE3D61812C02885100C1DB03 /* ValidationApp.swift */,
@@ -182,10 +184,10 @@
 				AE6C63372C066BAD006A363C /* ValidationSummaryView.swift */,
 				AE6C63392C066C31006A363C /* LocalizedError+Extensions.swift */,
 			);
-			path = Capture7;
+			path = HeadLine7;
 			sourceTree = "<group>";
 		};
-		AE601C5E2C010B3E00CA3E25 /* Capture5 */ = {
+		AE601C5E2C010B3E00CA3E25 /* HeadLine5 */ = {
 			isa = PBXGroup;
 			children = (
 				AEEA8F962C022CAE00D5E930 /* Extensions */,
@@ -194,7 +196,7 @@
 				AE601C652C010CE600CA3E25 /* Models */,
 				AE601C5F2C010B5100CA3E25 /* WeatherApp.swift */,
 			);
-			path = Capture5;
+			path = HeadLine5;
 			sourceTree = "<group>";
 		};
 		AE601C652C010CE600CA3E25 /* Models */ = {
@@ -224,7 +226,7 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		AEAE11892C145F6700B4D761 /* Capture8 - CoffeOrdeApp */ = {
+		AEAE11892C145F6700B4D761 /* HeadLine8 - CoffeOrdeApp */ = {
 			isa = PBXGroup;
 			children = (
 				AEAE118B2C145F8A00B4D761 /* WebServiceCoffeOrder.swift */,
@@ -232,18 +234,19 @@
 				AEAE118F2C1461CA00B4D761 /* CoffeModel.swift */,
 				AEAE11912C146CD400B4D761 /* HelloCoffeApp.swift */,
 				AEAE11932C16535500B4D761 /* OrderCellView.swift */,
+				AEAE11952C16693A00B4D761 /* AppEnvironment.swift */,
 			);
-			path = "Capture8 - CoffeOrdeApp";
+			path = "HeadLine8 - CoffeOrdeApp";
 			sourceTree = "<group>";
 		};
-		AEE365712BE831E000D098A0 /* Capture3 */ = {
+		AEE365712BE831E000D098A0 /* HeadLine3 */ = {
 			isa = PBXGroup;
 			children = (
 				AEE365722BE8320D00D098A0 /* HikingApp.swift */,
 				AEE365742BE8324B00D098A0 /* HikeModel.swift */,
 				AE63A05D2BF10DC300EEFFAF /* HikeDetailView.swift */,
 			);
-			path = Capture3;
+			path = HeadLine3;
 			sourceTree = "<group>";
 		};
 		AEEA36152BE7DF1C003DCEB0 = {
@@ -265,14 +268,14 @@
 		AEEA36202BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp */ = {
 			isa = PBXGroup;
 			children = (
-				AEAE11892C145F6700B4D761 /* Capture8 - CoffeOrdeApp */,
-				AE3D61802C02882100C1DB03 /* Capture7 */,
-				AE3D61712C025E0A00C1DB03 /* Capture6-1 */,
-				AEEA8F992C02312B00D5E930 /* Capture6 */,
-				AE601C5E2C010B3E00CA3E25 /* Capture5 */,
-				AEF5EA692BF126F40046F85D /* Capture4 */,
-				AEE365712BE831E000D098A0 /* Capture3 */,
-				AEEA36332BE7DF8E003DCEB0 /* Capture2 */,
+				AEAE11892C145F6700B4D761 /* HeadLine8 - CoffeOrdeApp */,
+				AE3D61802C02882100C1DB03 /* HeadLine7 */,
+				AE3D61712C025E0A00C1DB03 /* HeadLine6-1 */,
+				AEEA8F992C02312B00D5E930 /* HeadLine6 */,
+				AE601C5E2C010B3E00CA3E25 /* HeadLine5 */,
+				AEF5EA692BF126F40046F85D /* HeadLine4 */,
+				AEE365712BE831E000D098A0 /* HeadLine3 */,
+				AEEA36332BE7DF8E003DCEB0 /* HeadLine2 */,
 				AEEA36322BE7DF44003DCEB0 /* SwiftDataPackage */,
 				AEEA36212BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift */,
 				AEEA36232BE7DF1C003DCEB0 /* ContentView.swift */,
@@ -299,12 +302,12 @@
 			path = SwiftDataPackage;
 			sourceTree = "<group>";
 		};
-		AEEA36332BE7DF8E003DCEB0 /* Capture2 */ = {
+		AEEA36332BE7DF8E003DCEB0 /* HeadLine2 */ = {
 			isa = PBXGroup;
 			children = (
 				AEEA36342BE7DF9E003DCEB0 /* HelloSwiftUi.swift */,
 			);
-			path = Capture2;
+			path = HeadLine2;
 			sourceTree = "<group>";
 		};
 		AEEA8F962C022CAE00D5E930 /* Extensions */ = {
@@ -315,7 +318,7 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		AEEA8F992C02312B00D5E930 /* Capture6 */ = {
+		AEEA8F992C02312B00D5E930 /* HeadLine6 */ = {
 			isa = PBXGroup;
 			children = (
 				AE3D616E2C025C0200C1DB03 /* View Models */,
@@ -323,10 +326,10 @@
 				AE3D61682C0259AC00C1DB03 /* Services */,
 				AEEA8F9A2C02313B00D5E930 /* MvvmPattern.swift */,
 			);
-			path = Capture6;
+			path = HeadLine6;
 			sourceTree = "<group>";
 		};
-		AEF5EA692BF126F40046F85D /* Capture4 */ = {
+		AEF5EA692BF126F40046F85D /* HeadLine4 */ = {
 			isa = PBXGroup;
 			children = (
 				AEF5EA6A2BF127120046F85D /* StateAndBinding.swift */,
@@ -335,7 +338,7 @@
 				AEF5EA702BF15E5C0046F85D /* BindingProperty.swift */,
 				AEF5EA722BF1646E0046F85D /* GptBindingProperty.swift */,
 			);
-			path = Capture4;
+			path = HeadLine4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -443,6 +446,7 @@
 				AE601C602C010B5100CA3E25 /* WeatherApp.swift in Sources */,
 				AEF5EA6F2BF157BA0046F85D /* ListInSwiftUi.swift in Sources */,
 				AEEA8F9B2C02313B00D5E930 /* MvvmPattern.swift in Sources */,
+				AEAE11962C16693A00B4D761 /* AppEnvironment.swift in Sources */,
 				AE3D617C2C0261AD00C1DB03 /* FakeServices.swift in Sources */,
 				AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */,
 				AE3D61852C0288D100C1DB03 /* String+Extensions.swift in Sources */,

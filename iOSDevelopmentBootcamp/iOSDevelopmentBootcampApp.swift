@@ -14,9 +14,10 @@ struct iOSDevelopmentBootcampApp: App {
 
   //@StateObject private var storeModel = StoreModel(webService: FakeServices())
   @StateObject private var model: CoffeModel
-  
+
   init() {
-    let webService = WebServiceCoffeOrder()
+    var config = Configuration()
+    let webService = WebServiceCoffeOrder(baseURL: config.environment.baseUrl)
     _model = StateObject(wrappedValue: CoffeModel(webService: webService))
   }
 
