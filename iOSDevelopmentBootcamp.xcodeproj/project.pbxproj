@@ -16,8 +16,8 @@
 		AE3D617C2C0261AD00C1DB03 /* FakeServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D617B2C0261AD00C1DB03 /* FakeServices.swift */; };
 		AE3D617F2C0265D100C1DB03 /* NumberFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D617E2C0265D100C1DB03 /* NumberFormatter+Extension.swift */; };
 		AE3D61822C02885100C1DB03 /* ValidationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D61812C02885100C1DB03 /* ValidationApp.swift */; };
-		AE3D61852C0288D100C1DB03 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D61842C0288D100C1DB03 /* String+Extensions.swift */; };
 		AE3D61872C03D92800C1DB03 /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D61862C03D92800C1DB03 /* LoginError.swift */; };
+		AE5E92952C23016F006CCDEE /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E92942C23016F006CCDEE /* OrderDetailView.swift */; };
 		AE601C602C010B5100CA3E25 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C5F2C010B5100CA3E25 /* WeatherApp.swift */; };
 		AE601C622C010B7000CA3E25 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C612C010B7000CA3E25 /* Location.swift */; };
 		AE601C642C010C3500CA3E25 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE601C632C010C3500CA3E25 /* Weather.swift */; };
@@ -35,6 +35,10 @@
 		AEAE11922C146CD400B4D761 /* HelloCoffeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE11912C146CD400B4D761 /* HelloCoffeApp.swift */; };
 		AEAE11942C16535500B4D761 /* OrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE11932C16535500B4D761 /* OrderCellView.swift */; };
 		AEAE11962C16693A00B4D761 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE11952C16693A00B4D761 /* AppEnvironment.swift */; };
+		AECC86ED2C1B87FE00F1396A /* CoffeAppE2ETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC86EC2C1B87FE00F1396A /* CoffeAppE2ETests.swift */; };
+		AECC86F62C1B8D0F00F1396A /* AddCoffeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC86F52C1B8D0F00F1396A /* AddCoffeView.swift */; };
+		AECC86F82C1B8E8B00F1396A /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC86F72C1B8E8B00F1396A /* View+Extensions.swift */; };
+		AECC86FA2C1B91A000F1396A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC86F92C1B91A000F1396A /* String+Extensions.swift */; };
 		AEE365732BE8320D00D098A0 /* HikingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE365722BE8320D00D098A0 /* HikingApp.swift */; };
 		AEE365752BE8324B00D098A0 /* HikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE365742BE8324B00D098A0 /* HikeModel.swift */; };
 		AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA36212BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift */; };
@@ -53,6 +57,16 @@
 		AEF5EA732BF1646E0046F85D /* GptBindingProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF5EA722BF1646E0046F85D /* GptBindingProperty.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AECC86F02C1B87FE00F1396A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEEA36162BE7DF1C003DCEB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEEA361D2BE7DF1C003DCEB0;
+			remoteInfo = iOSDevelopmentBootcamp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		AE3D61692C0259B800C1DB03 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		AE3D616C2C0259DA00C1DB03 /* ProductX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductX.swift; sourceTree = "<group>"; };
@@ -63,8 +77,8 @@
 		AE3D617B2C0261AD00C1DB03 /* FakeServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeServices.swift; sourceTree = "<group>"; };
 		AE3D617E2C0265D100C1DB03 /* NumberFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extension.swift"; sourceTree = "<group>"; };
 		AE3D61812C02885100C1DB03 /* ValidationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationApp.swift; sourceTree = "<group>"; };
-		AE3D61842C0288D100C1DB03 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		AE3D61862C03D92800C1DB03 /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
+		AE5E92942C23016F006CCDEE /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
 		AE601C5F2C010B5100CA3E25 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		AE601C612C010B7000CA3E25 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		AE601C632C010C3500CA3E25 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
@@ -82,6 +96,11 @@
 		AEAE11912C146CD400B4D761 /* HelloCoffeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCoffeApp.swift; sourceTree = "<group>"; };
 		AEAE11932C16535500B4D761 /* OrderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCellView.swift; sourceTree = "<group>"; };
 		AEAE11952C16693A00B4D761 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		AECC86EA2C1B87FE00F1396A /* CoffeAppE2ETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeAppE2ETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECC86EC2C1B87FE00F1396A /* CoffeAppE2ETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeAppE2ETests.swift; sourceTree = "<group>"; };
+		AECC86F52C1B8D0F00F1396A /* AddCoffeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeView.swift; sourceTree = "<group>"; };
+		AECC86F72C1B8E8B00F1396A /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		AECC86F92C1B91A000F1396A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		AEE365722BE8320D00D098A0 /* HikingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikingApp.swift; sourceTree = "<group>"; };
 		AEE365742BE8324B00D098A0 /* HikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeModel.swift; sourceTree = "<group>"; };
 		AEEA361E2BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevelopmentBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +122,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AECC86E72C1B87FE00F1396A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEEA361B2BE7DF1C003DCEB0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,7 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				AE3D61812C02885100C1DB03 /* ValidationApp.swift */,
-				AE3D61842C0288D100C1DB03 /* String+Extensions.swift */,
 				AE3D61862C03D92800C1DB03 /* LoginError.swift */,
 				AE6C63332C066715006A363C /* LoginFormView.swift */,
 				AE6C63352C066A77006A363C /* LoginView.swift */,
@@ -235,24 +260,37 @@
 				AEAE11912C146CD400B4D761 /* HelloCoffeApp.swift */,
 				AEAE11932C16535500B4D761 /* OrderCellView.swift */,
 				AEAE11952C16693A00B4D761 /* AppEnvironment.swift */,
+				AECC86F52C1B8D0F00F1396A /* AddCoffeView.swift */,
+				AECC86F72C1B8E8B00F1396A /* View+Extensions.swift */,
+				AECC86F92C1B91A000F1396A /* String+Extensions.swift */,
+				AE5E92942C23016F006CCDEE /* OrderDetailView.swift */,
 			);
 			path = "HeadLine8 - CoffeOrdeApp";
 			sourceTree = "<group>";
 		};
-		AEE365712BE831E000D098A0 /* HeadLine3 */ = {
+		AECC86EB2C1B87FE00F1396A /* CoffeAppE2ETests */ = {
+			isa = PBXGroup;
+			children = (
+				AECC86EC2C1B87FE00F1396A /* CoffeAppE2ETests.swift */,
+			);
+			path = CoffeAppE2ETests;
+			sourceTree = "<group>";
+		};
+		AEE365712BE831E000D098A0 /* Part3-SwifUi-Fundamentals-Building-List-And-Navigation */ = {
 			isa = PBXGroup;
 			children = (
 				AEE365722BE8320D00D098A0 /* HikingApp.swift */,
 				AEE365742BE8324B00D098A0 /* HikeModel.swift */,
 				AE63A05D2BF10DC300EEFFAF /* HikeDetailView.swift */,
 			);
-			path = HeadLine3;
+			path = "Part3-SwifUi-Fundamentals-Building-List-And-Navigation";
 			sourceTree = "<group>";
 		};
 		AEEA36152BE7DF1C003DCEB0 = {
 			isa = PBXGroup;
 			children = (
 				AEEA36202BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp */,
+				AECC86EB2C1B87FE00F1396A /* CoffeAppE2ETests */,
 				AEEA361F2BE7DF1C003DCEB0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -261,6 +299,7 @@
 			isa = PBXGroup;
 			children = (
 				AEEA361E2BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp.app */,
+				AECC86EA2C1B87FE00F1396A /* CoffeAppE2ETests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -274,8 +313,8 @@
 				AEEA8F992C02312B00D5E930 /* HeadLine6 */,
 				AE601C5E2C010B3E00CA3E25 /* HeadLine5 */,
 				AEF5EA692BF126F40046F85D /* HeadLine4 */,
-				AEE365712BE831E000D098A0 /* HeadLine3 */,
-				AEEA36332BE7DF8E003DCEB0 /* HeadLine2 */,
+				AEE365712BE831E000D098A0 /* Part3-SwifUi-Fundamentals-Building-List-And-Navigation */,
+				AEEA36332BE7DF8E003DCEB0 /* Part2-SwiftUi-Fundamentals-GettingStarted */,
 				AEEA36322BE7DF44003DCEB0 /* SwiftDataPackage */,
 				AEEA36212BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift */,
 				AEEA36232BE7DF1C003DCEB0 /* ContentView.swift */,
@@ -302,12 +341,12 @@
 			path = SwiftDataPackage;
 			sourceTree = "<group>";
 		};
-		AEEA36332BE7DF8E003DCEB0 /* HeadLine2 */ = {
+		AEEA36332BE7DF8E003DCEB0 /* Part2-SwiftUi-Fundamentals-GettingStarted */ = {
 			isa = PBXGroup;
 			children = (
 				AEEA36342BE7DF9E003DCEB0 /* HelloSwiftUi.swift */,
 			);
-			path = HeadLine2;
+			path = "Part2-SwiftUi-Fundamentals-GettingStarted";
 			sourceTree = "<group>";
 		};
 		AEEA8F962C022CAE00D5E930 /* Extensions */ = {
@@ -344,6 +383,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AECC86E92C1B87FE00F1396A /* CoffeAppE2ETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AECC86F22C1B87FE00F1396A /* Build configuration list for PBXNativeTarget "CoffeAppE2ETests" */;
+			buildPhases = (
+				AECC86E62C1B87FE00F1396A /* Sources */,
+				AECC86E72C1B87FE00F1396A /* Frameworks */,
+				AECC86E82C1B87FE00F1396A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AECC86F12C1B87FE00F1396A /* PBXTargetDependency */,
+			);
+			name = CoffeAppE2ETests;
+			productName = CoffeAppE2ETests;
+			productReference = AECC86EA2C1B87FE00F1396A /* CoffeAppE2ETests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		AEEA361D2BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEEA362F2BE7DF1E003DCEB0 /* Build configuration list for PBXNativeTarget "iOSDevelopmentBootcamp" */;
@@ -368,9 +425,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					AECC86E92C1B87FE00F1396A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AEEA361D2BE7DF1C003DCEB0;
+					};
 					AEEA361D2BE7DF1C003DCEB0 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -390,11 +451,19 @@
 			projectRoot = "";
 			targets = (
 				AEEA361D2BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp */,
+				AECC86E92C1B87FE00F1396A /* CoffeAppE2ETests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AECC86E82C1B87FE00F1396A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEEA361C2BE7DF1C003DCEB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,12 +476,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AECC86E62C1B87FE00F1396A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AECC86ED2C1B87FE00F1396A /* CoffeAppE2ETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEEA361A2BE7DF1C003DCEB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AE3D616A2C0259B900C1DB03 /* WebService.swift in Sources */,
 				AEEA36352BE7DF9E003DCEB0 /* HelloSwiftUi.swift in Sources */,
+				AECC86F82C1B8E8B00F1396A /* View+Extensions.swift in Sources */,
 				AE601C6B2C010E1A00CA3E25 /* Constants.swift in Sources */,
 				AEE365732BE8320D00D098A0 /* HikingApp.swift in Sources */,
 				AEEA8F952C01FBAE00D5E930 /* WeatherClient.swift in Sources */,
@@ -436,6 +514,7 @@
 				AE3D61732C025E2000C1DB03 /* MVPattern.swift in Sources */,
 				AE601C622C010B7000CA3E25 /* Location.swift in Sources */,
 				AE3D61702C025C1000C1DB03 /* ProductListViewModel.swift in Sources */,
+				AECC86F62C1B8D0F00F1396A /* AddCoffeView.swift in Sources */,
 				AEF5EA732BF1646E0046F85D /* GptBindingProperty.swift in Sources */,
 				AEEA8F982C022CC400D5E930 /* MeasurementFormatter+Extensions.swift in Sources */,
 				AE3D617F2C0265D100C1DB03 /* NumberFormatter+Extension.swift in Sources */,
@@ -449,16 +528,64 @@
 				AEAE11962C16693A00B4D761 /* AppEnvironment.swift in Sources */,
 				AE3D617C2C0261AD00C1DB03 /* FakeServices.swift in Sources */,
 				AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */,
-				AE3D61852C0288D100C1DB03 /* String+Extensions.swift in Sources */,
+				AECC86FA2C1B91A000F1396A /* String+Extensions.swift in Sources */,
 				AEF5EA6D2BF1552F0046F85D /* AnotherExampleForState.swift in Sources */,
 				AEAE118E2C145FB700B4D761 /* OrderModel.swift in Sources */,
 				AEF5EA6B2BF127130046F85D /* StateAndBinding.swift in Sources */,
+				AE5E92952C23016F006CCDEE /* OrderDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		AECC86F12C1B87FE00F1396A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEEA361D2BE7DF1C003DCEB0 /* iOSDevelopmentBootcamp */;
+			targetProxy = AECC86F02C1B87FE00F1396A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		AECC86F32C1B87FE00F1396A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C3SB5DK2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakangul.CoffeAppE2ETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSDevelopmentBootcamp;
+			};
+			name = Debug;
+		};
+		AECC86F42C1B87FE00F1396A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C3SB5DK2F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hakangul.CoffeAppE2ETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSDevelopmentBootcamp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		AEEA362D2BE7DF1E003DCEB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -656,6 +783,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AECC86F22C1B87FE00F1396A /* Build configuration list for PBXNativeTarget "CoffeAppE2ETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AECC86F32C1B87FE00F1396A /* Debug */,
+				AECC86F42C1B87FE00F1396A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AEEA36192BE7DF1C003DCEB0 /* Build configuration list for PBXProject "iOSDevelopmentBootcamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
