@@ -35,6 +35,7 @@
 		AEAE11922C146CD400B4D761 /* HelloCoffeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE11912C146CD400B4D761 /* HelloCoffeApp.swift */; };
 		AEAE11942C16535500B4D761 /* OrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE11932C16535500B4D761 /* OrderCellView.swift */; };
 		AEAE11962C16693A00B4D761 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE11952C16693A00B4D761 /* AppEnvironment.swift */; };
+		AEC95E262C29E25700517E6C /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC95E252C29E25700517E6C /* UIImage+Extensions.swift */; };
 		AECC86ED2C1B87FE00F1396A /* CoffeAppE2ETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC86EC2C1B87FE00F1396A /* CoffeAppE2ETests.swift */; };
 		AECC86F62C1B8D0F00F1396A /* AddCoffeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC86F52C1B8D0F00F1396A /* AddCoffeView.swift */; };
 		AECC86F82C1B8E8B00F1396A /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECC86F72C1B8E8B00F1396A /* View+Extensions.swift */; };
@@ -96,6 +97,7 @@
 		AEAE11912C146CD400B4D761 /* HelloCoffeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCoffeApp.swift; sourceTree = "<group>"; };
 		AEAE11932C16535500B4D761 /* OrderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCellView.swift; sourceTree = "<group>"; };
 		AEAE11952C16693A00B4D761 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		AEC95E252C29E25700517E6C /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		AECC86EA2C1B87FE00F1396A /* CoffeAppE2ETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeAppE2ETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECC86EC2C1B87FE00F1396A /* CoffeAppE2ETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeAppE2ETests.swift; sourceTree = "<group>"; };
 		AECC86F52C1B8D0F00F1396A /* AddCoffeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeView.swift; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 				AECC86F72C1B8E8B00F1396A /* View+Extensions.swift */,
 				AECC86F92C1B91A000F1396A /* String+Extensions.swift */,
 				AE5E92942C23016F006CCDEE /* OrderDetailView.swift */,
+				AEC95E252C29E25700517E6C /* UIImage+Extensions.swift */,
 			);
 			path = "HeadLine8 - CoffeOrdeApp";
 			sourceTree = "<group>";
@@ -527,6 +530,7 @@
 				AEEA8F9B2C02313B00D5E930 /* MvvmPattern.swift in Sources */,
 				AEAE11962C16693A00B4D761 /* AppEnvironment.swift in Sources */,
 				AE3D617C2C0261AD00C1DB03 /* FakeServices.swift in Sources */,
+				AEC95E262C29E25700517E6C /* UIImage+Extensions.swift in Sources */,
 				AEEA36222BE7DF1C003DCEB0 /* iOSDevelopmentBootcampApp.swift in Sources */,
 				AECC86FA2C1B91A000F1396A /* String+Extensions.swift in Sources */,
 				AEF5EA6D2BF1552F0046F85D /* AnotherExampleForState.swift in Sources */,

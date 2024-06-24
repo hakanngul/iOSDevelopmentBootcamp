@@ -29,19 +29,17 @@ enum EndpointsX {
 
 struct Configuration {
   lazy var environment: AppEnvironment = {
+    guard let env = ProcessInfo.processInfo.environment["ENV"] else {
+      return AppEnvironment.test
+    }
+
+    if env == "TEST" {
+      print("ENV is => TEST")
+      return AppEnvironment.test
+    }
+
+    print("ENV is => DEV")
     return AppEnvironment.test
-    //    guard let env = ProcessInfo.processInfo.environment["ENV"] else {
-    //      return AppEnvironment.test
-    //    }
-    //
-    //
-    //    if env == "TEST" {
-    //      print("ENV is => TEST")
-    //      return AppEnvironment.test
-    //    }
-    //
-    //    print("ENV is => DEV")
-    //    return AppEnvironment.test
 
   }()
 }

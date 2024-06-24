@@ -91,7 +91,19 @@ struct AddCoffeView: View {
   var body: some View {
 
     NavigationStack {
+
       Form {
+
+        // Add a image and make center of screen
+
+        Image("kahve")
+          .resizable()
+          .scaledToFit()
+          .clipShape(RoundedRectangle(cornerRadius: 20))
+          .overlay(RoundedRectangle(cornerRadius: 20).stroke(Color.clear, lineWidth: 0))
+          .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
+          .padding()
+
         TextField("Name", text: $name)
           .accessibilityIdentifier("name")
         Text(errors.name).visible(errors.name.isNotEmpty)
